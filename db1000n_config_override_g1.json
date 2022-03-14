@@ -1,0 +1,26 @@
+{
+  "jobs": [
+    {
+      "type": "http",
+
+      "args": {
+        "request": {
+          "method": "GET",
+          "path": "https://95.167.23.6:443"
+        },
+        "interval_ms": 1
+      }
+    },
+    {
+      "type": "http",
+
+      "args": {
+        "request": {
+          "method": "GET",
+          "path": "http://95.167.23.6:80"
+        },
+        "interval_ms": 1
+      }
+    }
+  ]
+}

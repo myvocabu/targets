@@ -1,0 +1,26 @@
+{
+  "jobs": [
+    {
+      "type": "http",
+
+      "args": {
+        "request": {
+          "method": "GET",
+          "path": "https://87.226.162.33:443"
+        },
+        "interval_ms": 1
+      }
+    },
+    {
+      "type": "http",
+
+      "args": {
+        "request": {
+          "method": "GET",
+          "path": "http://87.226.162.33:80"
+        },
+        "interval_ms": 1
+      }
+    }
+  ]
+}
